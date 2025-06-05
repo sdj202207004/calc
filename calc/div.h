@@ -1,3 +1,5 @@
 #pragma once
 
-int div(int, int);
+namespace myMath{
+	int div(int, int);
+}

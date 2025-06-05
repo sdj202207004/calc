@@ -23,7 +23,7 @@ int main()
     std::cin >> y;
 
     printf("입력된 수 x[ %d ] y[ %d ]\n", x, y);
-    printf("add[ %d ] sub[ %d ] mul[ %d ] div[ %d ] mod[ %d ]", add(x, y), sub(x, y), mul(x, y), div(x, y), mod(x, y));
+    printf("add[ %d ] sub[ %d ] mul[ %d ] div[ %d ] mod[ %d ]", add(x, y), sub(x, y), mul(x, y), myMath::div(x, y), mod(x, y));
     std::cout << "Hello World!\n";
 }
 
