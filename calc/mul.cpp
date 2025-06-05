@@ -1,3 +1,5 @@
+#include "add.h"
+
 int mul(int x, int y)
 {
 	int i = 0;
